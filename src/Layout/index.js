@@ -10,7 +10,6 @@ class Layout extends React.Component {
       currentRoom: {},
       messages: [],
       currentUsername: '',
-      currentId: '',
       currentScreen: 'usernameInputScreen',
       usersWhoAreTyping: []
     };

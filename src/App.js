@@ -30,7 +30,7 @@ class App extends Component {
         this.setState({
           currentId: data.id,
           currentUsername: data.name,
-          currentScreen: 'ChatScreen'
+          currentScreen: 'chatScreen'
         });
       })
       .catch(error => console.error('error', error));
@@ -40,13 +40,12 @@ class App extends Component {
     if (this.state.currentScreen === 'usernameInputScreen') {
       return <UsernameForm handleSubmit={this.onUsernameSubmitted} />;
     }
-    if (this.state.currentScreen === 'ChatScreen') {
+    if (this.state.currentScreen === 'chatScreen') {
       return (
         <Layout
           currentId={this.state.currentId}
           Sidebar={Sidebar}
           Chatbox={Chatbox}
-          TypingIndicator={TypingIndicator}
         />
       );
     }

@@ -7,7 +7,7 @@ class UsernameForm extends Component {
   constructor() {
     super();
     this.state = {
-      username: 'anonymous'
+      username: ''
     };
   }
 
