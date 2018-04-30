@@ -1,6 +1,5 @@
 import React from 'react';
 import Chatkit from '@pusher/chatkit';
-import './Layout.css';
 
 class Layout extends React.Component {
   constructor(props) {

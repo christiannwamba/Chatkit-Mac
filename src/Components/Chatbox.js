@@ -6,10 +6,8 @@ import {
   ListViewRow,
   Text
 } from 'react-desktop/macOs';
-import SendMessageForm from '../SendMessageForm';
-import TypingIndicator from '../TypingIndicator';
-
-import './Chatbox.css';
+import SendMessageForm from './SendMessageForm';
+import TypingIndicator from './TypingIndicator';
 
 class Chatbox extends Component {
   render() {

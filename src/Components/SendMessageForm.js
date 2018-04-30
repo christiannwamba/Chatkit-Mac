@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './SendMessage.css';
 import { Button, TextInput } from 'react-desktop/macOs';
 
 class SendMessageForm extends Component {

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Layout from './Layout';
-import Chatbox from './Chatbox';
-import Sidebar from './Sidebar';
-import UsernameForm from './Username';
-import TypingIndicator from './TypingIndicator';
-import './App.css';
+import Layout from './Components/Layout';
+import Chatbox from './Components/Chatbox';
+import Sidebar from './Components/Sidebar';
+import UsernameForm from './Components/Username';
 
 class App extends Component {
   constructor(props) {
