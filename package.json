@@ -16,12 +16,14 @@
   "scripts": {
     "start": "react-scripts start",
     "server": "node server.js",
+    "dev": "nf start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "electron": "ELECTRON_START_URL=http://localhost:3000 electron ."
+    "electron": "ELECTRON_START_URL=http://localhost:5000 electron ."
   },
   "devDependencies": {
-    "electron": "^1.8.4"
+    "electron": "^1.8.4",
+    "foreman": "^2.0.0"
   }
 }

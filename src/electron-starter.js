@@ -16,7 +16,8 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    title: 'Chatkit Mac'
+    title: 'Chatkit Mac',
+    resizable: false
   });
 
   // and load the index.html of the app.
